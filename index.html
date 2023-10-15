@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/lib/augmento.js" type="module"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js" type="module"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Augmento viewer test</h1>
+
+    <p>-----</p>
+
+    <model-viewer
+        alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+        src="https://prod.augmento.com/v1/products/650c163cb05845fd047b9c7c/model" ar
+        poster="https://s3.me-central-1.amazonaws.com/augmento.cms/Bull-cropped-650c2de6b05845fd047bc571.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIASQGHGY6XQX3MNSOX%2F20231015%2Fme-central-1%2Fs3%2Faws4_request&X-Amz-Date=20231015T122003Z&X-Amz-Expires=900&X-Amz-Signature=87d79e6e8a7fd430e7d85b8cef320a1a1555589c9163e7634d190b5aa2b98635&X-Amz-SignedHeaders=host"
+        shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+
+    <p>-----</p>
+    <augmento-viewer model-id="bull-639VB"></augmento-viewer>
+    <p>-----</p>
+    <model-viewer
+        alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+        src="/models/skull.glb" ar
+        poster="/img/skull.webp"
+        shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+    <p>-----</p>
+</body>
+
+
+
+</html>
